@@ -1,2 +1,3 @@
 # emerckx.github.io
-Personal website
+
+This is my personal website. But still: work in progress.
