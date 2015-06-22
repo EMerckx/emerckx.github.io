@@ -11,3 +11,15 @@ body {
 .section {
     text-align:center;
 }
+
+ul#socialmedia li{
+    display: inline;
+}
+
+ul#socialmedia li a{
+    margin-bottom: 5px;
+}
+
+/*.show-on-hover {
+    visibility: hidden;
+}*/
