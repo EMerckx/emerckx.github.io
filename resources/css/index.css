@@ -24,14 +24,26 @@ body {
     text-align:center;
 }
 
+/* navigation */
+
+.fp-tooltip{
+    color: white;
+}
+#fp-nav span, .fp-slidesNav span{
+    border-color: white;
+}
+#fp-nav li .active span, .fp-slidesNav .active span{
+     background: #EEE;
+}
+
 /* - overview */
 
-ul#socialmedia li{
+ul#social-media li{
     display: inline;
 }
 
-ul#socialmedia li a{
-    margin-bottom: 5px;
+ul#social-media li a{
+    margin: 0px 2px 5px 2px;
 }
 
 ul#sections li{
@@ -48,14 +60,13 @@ ul#sections li a{
 
 /* - experience */
 
-#latestprojects {
+#latest-projects {
     text-align: left;
     margin: auto;
 }
 
-#latestprojects .projecticon{
+#latest-projects .project-icon {
     font-size: xx-large;
-    /*margin: 10px;*/
     border: solid white;
     width: 55px;
     height: 55px;
@@ -64,31 +75,66 @@ ul#sections li a{
     padding: 2px 5px;
 }
 
-#latestprojects .webapplication{
+#latest-projects .web-application {
     background: url("../images/appbar.browser.svg") no-repeat top left;
     display: block;
     background-size: 50px 50px;
 }
 
-#latestprojects .windowsphoneapplication{
+#latest-projects .windows-phone-application {
     background: url("../images/appbar.windowsphone.svg") no-repeat top left;
     display: block;
     background-size: 50px 50px;
 }
 
-
-#latestprojects .projectinfo h6{
-    font-size: xx-large;
-    margin-bottom: 10px;
+#latest-projects .project-info h4{
+    margin-top: 0px;
 }
 
-#latestprojects .projectinfo p{
+#latest-projects .project-info p{
     margin: 3px 0px 2px 5px;
     font-size: medium;
 }
 
-#latestprojects .projectinfo p a{
+/*#latest-projects .project-info p a{
     text-shadow: 2px 2px #666;
+}*/
+
+/* - education */
+#edu {
+    text-align: left;
+    margin: auto;
+}
+
+#edu .edu-icon {
+    font-size: xx-large;
+    border: solid white;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+#edu .current-education{
+    background: url("../images/appbar.book.hardcover.open.writing.svg") no-repeat top left;
+    display: block;
+    background-size: 50px 50px;
+}
+
+#edu .past-education{
+    background: url("../images/appbar.book.svg") no-repeat top left;
+    display: block;
+    background-size: 50px 50px;
+}
+
+#edu .edu-info h4{
+     margin-top: 0px;
+}
+
+#edu .edu-info p{
+    margin: 3px 0px 2px 5px;
+    font-size: medium;
 }
 
 

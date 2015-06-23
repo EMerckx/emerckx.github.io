@@ -8,7 +8,8 @@ function setFullPages() {
     $('#fullpage').fullpage({
         autoScrolling: true,
         fitToSection: false,
-        'sectionsColor': ['#3D577A', '#677C97', '#3D577A', '#677C97'],
+        //'sectionsColor': ['#00244d', '#193b61', '#00244d', '#193b61'],
+        'sectionsColor': ['#193b61', '#304D6F', '#193b61', '#304D6F'],
         navigation: true,
         'navigationPosition': 'right',
         'navigationTooltips': ['Overview', 'Experience', 'Education', 'About'],
