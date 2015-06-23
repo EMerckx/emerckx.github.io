@@ -8,9 +8,18 @@ body {
     color: white;
 }
 
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+/* HOME PAGE */
+
 .section {
     text-align:center;
 }
+
+/* - overview */
 
 ul#socialmedia li{
     display: inline;
@@ -20,6 +29,62 @@ ul#socialmedia li a{
     margin-bottom: 5px;
 }
 
+ul#sections li{
+    display: inline;
+}
+
+ul#sections li a{
+    margin-bottom: 5px;
+}
+
 /*.show-on-hover {
     visibility: hidden;
 }*/
+
+/* - experience */
+#latestprojects {
+    text-align: left;
+    margin: auto;
+}
+
+#latestprojects section{
+    /*float: left;*/
+}
+
+
+#latestprojects .projecticon{
+    font-size: xx-large;
+    /*margin: 10px;*/
+    border: solid white;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+
+#latestprojects .projectinfo h6{
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+#latestprojects .projectinfo p{
+    margin: 3px 0px 2px 5px;
+    font-size: medium;
+}
+
+/*
+#latestprojects .projectinfo ul{
+    margin-left: 25px;
+    text-shadow: 1px 1px #666666;
+    font-size: medium;
+}
+
+#latestprojects .projectinfo .info-row li{
+    display: inline;
+}*/
+
+
+
+
