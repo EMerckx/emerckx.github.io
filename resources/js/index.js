@@ -12,6 +12,7 @@ function setFullPages() {
         navigation: true,
         'navigationPosition': 'right',
         'navigationTooltips': ['Overview', 'Experience', 'Education', 'About'],
-        anchors: ['overview', 'experience', 'education', 'about']
+        anchors: ['overview', 'experience', 'education', 'about'],
+        scrollOverflow: true
     });
 }
