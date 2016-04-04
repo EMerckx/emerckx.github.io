@@ -1,6 +1,6 @@
 /*
-color scheme : 52ADDA	68B8DF	C9C9C9	DBDBDB	AACD4B	B5D954
-color scheme : 336699	666666	999999
+color scheme : 52ADDA   68B8DF  C9C9C9  DBDBDB  AACD4B  B5D954
+color scheme : 336699   666666  999999
 */
 
 body {
@@ -100,6 +100,18 @@ h1 {
     padding: 2px 5px;
 }
 
+#latest-projects .application {
+    background: url("../images/appbar.app.svg") no-repeat top left;
+    display: block;
+    background-size: 50px 50px;
+}
+
+#latest-projects .server {
+    background: url("../images/appbar.server.svg") no-repeat top left;
+    display: block;
+    background-size: 50px 50px;
+}
+
 #latest-projects .web-application {
     background: url("../images/appbar.browser.svg") no-repeat top left;
     display: block;
@@ -162,5 +174,7 @@ h1 {
     font-size: medium;
 }
 
-
-
+/* - about */
+.text-left{
+    text-align: left;
+}
